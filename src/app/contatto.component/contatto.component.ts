@@ -8,6 +8,8 @@ import { Contatto } from './contatto.model.ts';
 })
 
 export class ContattoComponent {
-  contatto: Contatto = new Contatto('Patrick', 'Valentini', 'patrick.valentini@marconirovereto.it', '+39347926467', 3);
+  contatto: Contatto = new Contatto('Patrick', 'Valentini', 'patrick.valentini@marconirovereto.it', '+39 1234567890', 5);
+
+  
 
 }
